@@ -24,7 +24,7 @@
 {%- endunless -%}
 
 <script src="{{ 'quantity-popover.js' | asset_url }}" defer="defer"></script>
-
+<script src="{{ 'cart-validation.js' | asset_url }}" defer="defer"></script>
 <cart-items class="gradient color-{{ section.settings.color_scheme }} isolate{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
   <div class="page-width">
     <div class="title-wrapper-with-link">
@@ -265,6 +265,15 @@
                                 aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
                                 id="Quantity-{{ item.index | plus: 1 }}"
                                 data-index="{{ item.index | plus: 1 }}"
+                              >
+                              {% assign limits = item.variant.metafields.custom.information_limits.value %}
+                              <input
+                                type="hidden"
+                                id="cart-item-limits-{{ item.key }}"
+                                data-min="{{ limits.minimum }}"
+                                data-max="{{ limits.maximum }}"
+                                data-sku="{{ item.variant.sku }}"
+                                data-quantity="{{ item.quantity }}"
                               >
                               <button class="quantity__button" name="plus" type="button">
                                 <span class="visually-hidden">
