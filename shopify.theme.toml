@@ -1,0 +1,4 @@
+[environments.development]
+store = "flagshiptesting"
+password  = "flagship_123456"
+allow-live = true
