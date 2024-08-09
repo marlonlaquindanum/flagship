@@ -1,0 +1,31 @@
+.news-carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 20px 0;
+}
+
+.swiper-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-container > .swiper-wrapper + .swiper-pagination {
+  text-align: center;
+  padding: 10px 0;
+  top: 75%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000;
+}
