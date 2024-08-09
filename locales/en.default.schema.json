@@ -2626,6 +2626,31 @@
         "name": "Multicolumn"
       }
     },
+    "news-carousel": {
+      "name": "News Carousel",
+      "blocks": {
+        "item": {
+          "name": "News Item",
+          "settings": {
+            "title": {
+              "label": "Title"
+            },
+            "description": {
+              "label": "Description"
+            },
+            "start_datetime": {
+              "label": "Start Date and Time (yyyy/MM/dd HH:mm:ss)"
+            },
+            "end_datetime": {
+              "label": "End Date and Time (yyyy/MM/dd HH:mm:ss)"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "News Carousel"
+      }
+    },
     "newsletter": {
       "name": "Email signup",
       "settings": {
