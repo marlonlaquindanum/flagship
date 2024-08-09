@@ -1,5 +1,7 @@
+{{ 'section-news-carousel.css' | asset_url | stylesheet_tag }}
 {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'swiper-bundle.min.js' | asset_url }}"></script>
+<script src="{{ 'news-carousel.js' | asset_url }}" defer="defer"></script>
 
 <div class="news-carousel">
   <div class="swiper-container page-width">
