@@ -71,37 +71,37 @@
         "news_item_qYLBEV": {
           "type": "news_item",
           "settings": {
-            "title": "",
-            "description": "",
-            "start_datetime": "",
-            "end_datetime": ""
+            "title": "Second Item",
+            "description": "This is second Item.",
+            "start_datetime": "2024\/06\/03 12:23:34",
+            "end_datetime": "2024\/09\/05 12:23:34"
           }
         },
         "news_item_XWgNQY": {
           "type": "news_item",
           "settings": {
-            "title": "",
-            "description": "",
-            "start_datetime": "",
-            "end_datetime": ""
+            "title": "Third Item",
+            "description": "This is third item.",
+            "start_datetime": "2024\/06\/03 12:23:34",
+            "end_datetime": "2024\/09\/05 12:23:34"
           }
         },
         "news_item_m9ywT6": {
           "type": "news_item",
           "settings": {
-            "title": "",
-            "description": "",
-            "start_datetime": "",
-            "end_datetime": ""
+            "title": "Fourth Item",
+            "description": "This is fourth item",
+            "start_datetime": "2024\/06\/03 12:23:34",
+            "end_datetime": "2024\/07\/05 12:23:34"
           }
         },
         "news_item_iHVCAd": {
           "type": "news_item",
           "settings": {
-            "title": "",
-            "description": "",
-            "start_datetime": "",
-            "end_datetime": ""
+            "title": "Fifth Item",
+            "description": "This is fifth item",
+            "start_datetime": "2024\/06\/03 12:23:34",
+            "end_datetime": "2024\/09\/05 12:23:34"
           }
         }
       },
